@@ -23,6 +23,7 @@ button {
   border: none;
   margin: 0;
   padding: 0;
+  border-radius: 4px;
   width: auto;
   overflow: visible;
   background: transparent;
@@ -58,7 +59,7 @@ body {
   max-width: 68rem;
   margin: 0 auto;
   font: 1.6rem/1.25 Arial, sans-serif;
-  background-color: rgb(184, 209, 219);
+  background: linear-gradient(to right, #35c2a6, #f0e3af);
   color: #4d4d4d;
 }
 @media screen and (min-width: 620px) {
@@ -69,6 +70,8 @@ body {
 }
 /*END RESETS*/
 /* GLOBAL STYLES */
+
+
 .form-group > input[type="text"] {
   display: inline-block;
   margin-top: 0.4rem;
@@ -147,7 +150,7 @@ body {
 /* END GLOBAL STYLES */
 .todoapp {
   background: #fff;
-  margin: 2rem 0 4rem 0;
+  margin: 5rem 0 4rem 0;
   padding: 1rem;
   position: relative;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5rem 5rem 0 rgba(0, 0, 0, 0.1);
